@@ -1541,7 +1541,7 @@ def main():
                         for jd_s, res_s, score in matches[:10]:
                             color = "#4caf50" if score > 0.8 else "#ff9800" if score > 0.6 else "#f44336"
                             st.markdown(f"""
-                            <div style='padding:10px; margin:5px 0; border-left:4px solid {color}; background:#f5f5f5;'>
+                            <div style='padding:10px; margin:5px 0; border-left:4px solid {color}; background:black;'>
                                 <b>JD:</b> {jd_s.title()}<br>
                                 <b>Resume:</b> {res_s.title()}<br>
                                 <b>Similarity:</b> {score:.3f}
@@ -2142,4 +2142,5 @@ DETAILED SKILL ANALYSIS
     st.markdown("---")
 
 if __name__ == "__main__":
+
     main()
