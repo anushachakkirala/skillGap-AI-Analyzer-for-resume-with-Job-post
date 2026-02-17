@@ -2,6 +2,7 @@ An intelligent, full-stack web application that analyzes and matches resumes aga
 Sentence-BERT semantic embeddings, with interactive visualizations, and professional PDF report generation.
 
 @Features:
+
 1.Authentication
 OTP-based two-factor login via email
 User registration with profile management
